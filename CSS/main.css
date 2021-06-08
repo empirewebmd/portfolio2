@@ -1,0 +1,191 @@
+body {
+  background-color: blue;
+}
+
+.container {
+  background-color: #000000;
+  height: auto -webkit-max-content;
+  height: auto -moz-max-content;
+  height: auto max-content;
+  margin: 20px;
+  border-radius: 40px;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid blue;
+}
+.nav ul {
+  display: flex;
+  margin: auto;
+}
+.nav li {
+  list-style-type: none;
+  color: #ffffff;
+  margin: 30px;
+}
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid white;
+  line-height: 1.5rem;
+  width: 30px;
+}
+.nav .logo {
+  width: 100px;
+  height: 5vh;
+  border-radius: 50%;
+  padding-top: 0px;
+}
+.nav p {
+  color: #ffffff;
+  background-color: blue;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.col6 {
+  width: 48%;
+  height: 48%;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 120px;
+}
+.col6 img {
+  height: 350px;
+  width: 50vh;
+  border-radius: 50%;
+  transform: rotatey(360deg);
+  border: 20px solid navy;
+}
+
+.col7 {
+  width: 48%;
+  height: 48%;
+  text-align: center;
+  color: #ffffff;
+  margin: 30px;
+  margin-right: 170px;
+  margin-top: 50px;
+}
+.col7 p {
+  color: navy;
+  font-size: 22px;
+}
+.col7 article {
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.col7 button {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  color: #ffffff;
+  margin: 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.container3 {
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+.container3 p {
+  color: #ffffff;
+  margin: 30px;
+  padding-bottom: 20px;
+}
+.container3 .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container3 .moddes {
+  width: 30%;
+  height: 270px;
+  margin: 10px;
+  border: 1px solid white;
+}
+.container3 .moddes iframe {
+  width: 100%;
+  height: 50vh;
+}
+.container3 p {
+  justify-items: center;
+  text-align: center;
+}
+.container3 h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.Portfolio-moddes {
+  margin: 10px;
+  border: 1px solid white;
+}
+.Portfolio-moddes iframe {
+  width: 90%;
+  height: 50vh;
+  margin-left: 20px;
+}
+.Portfolio-moddes p {
+  justify-items: center;
+  text-align: center;
+}
+.Portfolio-moddes h1 {
+  color: #ffffff;
+  text-align: center;
+}
+.Portfolio-moddes a {
+  text-decoration: none;
+  color: white;
+  margin-left: 150px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid blue;
+}
+.footer .nav {
+  border-top: 1px solid blue;
+  padding-top: 10px;
+}
+
+.contactDetails {
+  display: flex;
+  margin-top: 30px;
+}
+.contactDetails input,
+.contactDetails textarea {
+  width: 100%;
+  height: 30px;
+  margin: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.contactDetails button {
+  width: 50%;
+  height: 50px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid white;
+}
+.contactDetails input [type=placeholder] {
+  color: #ffffff;
+}
